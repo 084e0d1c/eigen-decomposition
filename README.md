@@ -1,7 +1,7 @@
 # Eigen Portfolios
 After finishing MIT 18.06 on Linear Algebra, I wanted to put my new found knowledge to good use. I knew about the traditional approach of Markovitz mean-variance optimization, but I was curious to explore other approaches. This led me to attempt eigen decomposition/PCA on the basket of stocks contained within popular indices like DJI to create an optimized portfolio. The timeframe I will be using will be from 2000 onwards. <br>
 
-You can find my full workings at [Eigen-Portfolio.ipynb](Eigen Portfolio.ipynb) and my scraping script that I wrote to get the price history of tickers within an index at [index_ticker_scraper.py](index_ticker_scraper.py).
+You can find my full workings at [Eigen-Portfolio.ipynb](Eigen-Portfolio.ipynb) and my scraping script that I wrote to get the price history of tickers within an index at [index_ticker_scraper.py](index_ticker_scraper.py).
 
 ### Basic Visualisations
 ![](Images/DJI-Returns.png)
@@ -31,6 +31,11 @@ I hope this has been as interesting for you as it has been for me! Till the next
 ## Resources required to replicate findings
 1. A dataframe containing prices of tickers that interest you.
 2. Some understanding on Linear Algebra
+
+## Credits (Resources I've read that have deeply helped!)
+1. https://github.com/alexdai186/Eigenportfolios
+2. https://srome.github.io/Eigenvesting-I-Linear-Algebra-Can-Help-You-Choose-Your-Stock-Portfolio/
+3. https://github.com/Gustrigos/Eigen-Portfolio/blob/master/ml.ipynb 
 
 ## Disclaimer
 All views and findings presented in my code or repository are my own and do not represent the opinions of any entity whatsoever with which I have been, am now, or will be affiliated. All material provided are for general information purposes only and do not constitute accounting, legal, tax, or other professional advice. Visitors should not act upon the content or information found here without first seeking appropriate advice from an accountant, financial planner, lawyer or other professional. Usage of any material contained within this repository constitutes an explicit understanding and acceptance of the terms of this disclaimer. 
