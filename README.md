@@ -12,7 +12,7 @@ After finishing MIT 18.06 on Linear Algebra, I wanted to put my new found knowle
 ## Results 
 #### Best Portfolio Performance
 ![](Images/Portfolio-Performance.png)
-![](Images/Eigen-weights.png)
+![](Images/Eigen-Weights.png)
 
 ## Resources required to replicate findings
 A dataframe containing prices of tickers that interest you.
